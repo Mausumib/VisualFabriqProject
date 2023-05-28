@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: apiTest.nextBirthdayAPITest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 3.957 s <<< FAILURE! - in apiTest.nextBirthdayAPITest
+apiTest.nextBirthdayAPITest.testNextBirthdayInHours  Time elapsed: 2.258 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2616 hours left> but was: <3744 hours left>
+	at apiTest.nextBirthdayAPITest.testNextBirthdayInHours(nextBirthdayAPITest.java:25)
+
+apiTest.nextBirthdayAPITest.testNextBirthdayInWeeks  Time elapsed: 0.566 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <15 weeks left> but was: <22 weeks left>
+	at apiTest.nextBirthdayAPITest.testNextBirthdayInWeeks(nextBirthdayAPITest.java:49)
+
+apiTest.nextBirthdayAPITest.testNextBirthdayInDays  Time elapsed: 0.509 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <109 days left> but was: <156 days left>
+	at apiTest.nextBirthdayAPITest.testNextBirthdayInDays(nextBirthdayAPITest.java:37)
+
+apiTest.nextBirthdayAPITest.testNextBirthdayInMonths  Time elapsed: 0.308 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3 months left> but was: <5 months left>
+	at apiTest.nextBirthdayAPITest.testNextBirthdayInMonths(nextBirthdayAPITest.java:61)
+
